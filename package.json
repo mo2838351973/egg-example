@@ -1,0 +1,26 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.22.2",
+    "egg-sequelize": "^5.2.2",
+    "egg-ua": "./egg-ua",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0",
+    "egg-mock": "^3.23.1",
+    "sequelize-cli": "^6.2.0"
+  }
+}

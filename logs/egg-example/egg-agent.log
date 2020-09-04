@@ -1,0 +1,239 @@
+2019-06-14 00:00:01,035 INFO 1719 [egg-logrotator] agent logger reload: got log-reload message
+2019-06-14 10:42:35,838 INFO 2574 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-14 10:42:35,851 INFO 2574 [egg:core] dump config after load, 4ms
+2019-06-14 10:42:35,966 INFO 2574 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2019-06-14 10:42:35,966 INFO 2574 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2019-06-14 10:42:35,967 INFO 2574 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2019-06-14 10:42:35,967 INFO 2574 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2019-06-14 10:42:35,967 INFO 2574 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2019-06-14 10:42:35,967 INFO 2574 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2019-06-14 10:42:35,967 INFO 2574 [egg-watcher:agent] watcher start success
+2019-06-14 10:42:36,044 INFO 2574 [egg:core] dump config after ready, 18ms
+2020-08-24 14:59:17,708 INFO 7371 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-24 14:59:17,741 INFO 7371 [egg:core] dump config after load, 13ms
+2020-08-24 14:59:17,797 INFO 7371 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-08-24 14:59:17,797 INFO 7371 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-08-24 14:59:17,798 INFO 7371 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-08-24 14:59:17,798 INFO 7371 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-08-24 14:59:17,798 INFO 7371 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-08-24 14:59:17,798 INFO 7371 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-08-24 14:59:17,798 INFO 7371 [egg-watcher:agent] watcher start success
+2020-08-24 14:59:17,836 INFO 7371 [egg:core] dump config after ready, 19ms
+2020-08-24 16:16:41,183 ERROR 7371 nodejs.ClusterClientNoResponseError: client no response in 521312ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yhh/practice/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7371
+hostname: yhhdeMacBook-Pro.local
+
+2020-08-24 16:35:16,811 INFO 9595 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-24 16:35:16,824 INFO 9595 [egg:core] dump config after load, 6ms
+2020-08-24 16:35:16,878 INFO 9595 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-08-24 16:35:16,879 INFO 9595 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-08-24 16:35:16,879 INFO 9595 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-08-24 16:35:16,879 INFO 9595 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-08-24 16:35:16,879 INFO 9595 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-08-24 16:35:16,879 INFO 9595 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-08-24 16:35:16,879 INFO 9595 [egg-watcher:agent] watcher start success
+2020-08-24 16:35:16,900 INFO 9595 [egg:core] dump config after ready, 6ms
+2020-08-25 15:41:31,761 INFO 9092 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-25 15:41:31,787 INFO 9092 [egg:core] dump config after load, 10ms
+2020-08-25 15:41:31,870 INFO 9092 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-08-25 15:41:31,870 INFO 9092 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-08-25 15:41:31,870 INFO 9092 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-08-25 15:41:31,870 INFO 9092 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-08-25 15:41:31,870 INFO 9092 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-08-25 15:41:31,870 INFO 9092 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-08-25 15:41:31,872 INFO 9092 [egg-watcher:agent] watcher start success
+2020-08-25 15:41:31,933 INFO 9092 [egg:core] dump config after ready, 36ms
+2020-08-25 15:44:29,230 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/router.js change
+2020-08-25 15:44:29,013 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606085494,"size":852,"blocks":8,"atimeMs":1598341468933.174,"mtimeMs":1598341468935.123,"ctimeMs":1598341468935.123,"birthtimeMs":1560235658830.6914,"atime":"2020-08-25T07:44:28.933Z","mtime":"2020-08-25T07:44:28.935Z","ctime":"2020-08-25T07:44:28.935Z","birthtime":"2019-06-11T06:47:38.831Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 15:45:28,350 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/name.js change
+2020-08-25 15:45:28,146 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/name.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606293232,"size":107,"blocks":8,"atimeMs":1598341528019.069,"mtimeMs":1598341528034.9995,"ctimeMs":1598341528034.9995,"birthtimeMs":1560424475077.6448,"atime":"2020-08-25T07:45:28.019Z","mtime":"2020-08-25T07:45:28.035Z","ctime":"2020-08-25T07:45:28.035Z","birthtime":"2019-06-13T11:14:35.078Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 15:46:35,048 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/router.js change
+2020-08-25 15:46:34,844 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606085494,"size":846,"blocks":8,"atimeMs":1598341594729.4543,"mtimeMs":1598341594730.9946,"ctimeMs":1598341594730.9946,"birthtimeMs":1560235658830.6914,"atime":"2020-08-25T07:46:34.729Z","mtime":"2020-08-25T07:46:34.731Z","ctime":"2020-08-25T07:46:34.731Z","birthtime":"2019-06-11T06:47:38.831Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 15:56:41,030 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yhh/practice/egg-example/app/core","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8661690525,"size":64,"blocks":0,"atimeMs":1598342200922.0767,"mtimeMs":1598342200919.0916,"ctimeMs":1598342200919.0916,"birthtimeMs":1598342200919.0916,"atime":"2020-08-25T07:56:40.922Z","mtime":"2020-08-25T07:56:40.919Z","ctime":"2020-08-25T07:56:40.919Z","birthtime":"2020-08-25T07:56:40.919Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-08-25 15:56:56,145 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/core/base_controller.js rename
+2020-08-25 15:56:55,933 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yhh/practice/egg-example/app/core/base_controller.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8661690562,"size":0,"blocks":0,"atimeMs":1598342215912.1045,"mtimeMs":1598342215912.1045,"ctimeMs":1598342215912.1045,"birthtimeMs":1598342215912.1045,"atime":"2020-08-25T07:56:55.912Z","mtime":"2020-08-25T07:56:55.912Z","ctime":"2020-08-25T07:56:55.912Z","birthtime":"2020-08-25T07:56:55.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 15:57:03,343 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yhh/practice/egg-example/app/core/base_controller.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8661690562,"size":336,"blocks":8,"atimeMs":1598342223331.7358,"mtimeMs":1598342223337.3896,"ctimeMs":1598342223337.3896,"birthtimeMs":1598342215912.1045,"atime":"2020-08-25T07:57:03.332Z","mtime":"2020-08-25T07:57:03.337Z","ctime":"2020-08-25T07:57:03.337Z","birthtime":"2020-08-25T07:56:55.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 15:57:03,601 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/core/base_controller.js rename
+2020-08-25 15:57:03,399 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yhh/practice/egg-example/app/core/base_controller.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8661690562,"size":336,"blocks":8,"atimeMs":1598342223331.7358,"mtimeMs":1598342223337.3896,"ctimeMs":1598342223337.3896,"birthtimeMs":1598342215912.1045,"atime":"2020-08-25T07:57:03.332Z","mtime":"2020-08-25T07:57:03.337Z","ctime":"2020-08-25T07:57:03.337Z","birthtime":"2020-08-25T07:56:55.912Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 15:59:23,143 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/name.js change
+2020-08-25 15:59:22,941 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/name.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606293232,"size":345,"blocks":8,"atimeMs":1598342362851.179,"mtimeMs":1598342362852.6426,"ctimeMs":1598342362852.6426,"birthtimeMs":1560424475077.6448,"atime":"2020-08-25T07:59:22.851Z","mtime":"2020-08-25T07:59:22.853Z","ctime":"2020-08-25T07:59:22.853Z","birthtime":"2019-06-13T11:14:35.078Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 16:00:24,933 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/name.js change
+2020-08-25 16:00:24,732 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/name.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606293232,"size":334,"blocks":8,"atimeMs":1598342424662.0059,"mtimeMs":1598342424663.5854,"ctimeMs":1598342424663.5854,"birthtimeMs":1560424475077.6448,"atime":"2020-08-25T08:00:24.662Z","mtime":"2020-08-25T08:00:24.664Z","ctime":"2020-08-25T08:00:24.664Z","birthtime":"2019-06-13T11:14:35.078Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 16:00:29,523 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/name.js change
+2020-08-25 16:00:29,318 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/name.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606293232,"size":346,"blocks":8,"atimeMs":1598342429298.7488,"mtimeMs":1598342429301.4224,"ctimeMs":1598342429301.4224,"birthtimeMs":1560424475077.6448,"atime":"2020-08-25T08:00:29.299Z","mtime":"2020-08-25T08:00:29.301Z","ctime":"2020-08-25T08:00:29.301Z","birthtime":"2019-06-13T11:14:35.078Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 16:10:41,151 INFO 10053 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-25 16:10:41,161 INFO 10053 [egg:core] dump config after load, 6ms
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-08-25 16:10:41,207 INFO 10053 [egg-watcher:agent] watcher start success
+2020-08-25 16:10:41,237 INFO 10053 [egg:core] dump config after ready, 5ms
+2020-08-25 16:50:44,377 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":763,"blocks":8,"atimeMs":1598345444305.2666,"mtimeMs":1598345444307.6055,"ctimeMs":1598345444307.6055,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T08:50:44.305Z","mtime":"2020-08-25T08:50:44.308Z","ctime":"2020-08-25T08:50:44.308Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 16:50:44,582 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 16:50:50,344 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":763,"blocks":8,"atimeMs":1598345450331.313,"mtimeMs":1598345450332.0542,"ctimeMs":1598345450332.0542,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T08:50:50.331Z","mtime":"2020-08-25T08:50:50.332Z","ctime":"2020-08-25T08:50:50.332Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 16:50:50,559 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 16:52:08,437 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606085545,"size":924,"blocks":8,"atimeMs":1598345528372.2922,"mtimeMs":1598345528375.5198,"ctimeMs":1598345528375.5198,"birthtimeMs":1560235741901.8137,"atime":"2020-08-25T08:52:08.372Z","mtime":"2020-08-25T08:52:08.376Z","ctime":"2020-08-25T08:52:08.376Z","birthtime":"2019-06-11T06:49:01.902Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 16:52:08,640 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/config/config.default.js change
+2020-08-25 16:52:39,944 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/config/config.default.js change
+2020-08-25 16:52:39,743 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606085545,"size":925,"blocks":8,"atimeMs":1598345559631.3103,"mtimeMs":1598345559632.042,"ctimeMs":1598345559632.042,"birthtimeMs":1560235741901.8137,"atime":"2020-08-25T08:52:39.631Z","mtime":"2020-08-25T08:52:39.632Z","ctime":"2020-08-25T08:52:39.632Z","birthtime":"2019-06-11T06:49:01.902Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:09:22,068 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":766,"blocks":8,"atimeMs":1598346561983.245,"mtimeMs":1598346561990.6975,"ctimeMs":1598346561990.6975,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:09:21.983Z","mtime":"2020-08-25T09:09:21.991Z","ctime":"2020-08-25T09:09:21.991Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:09:22,282 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:09:51,413 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:09:51,211 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":772,"blocks":8,"atimeMs":1598346591148.1086,"mtimeMs":1598346591149.63,"ctimeMs":1598346591149.63,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:09:51.148Z","mtime":"2020-08-25T09:09:51.150Z","ctime":"2020-08-25T09:09:51.150Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:10:19,052 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":810,"blocks":8,"atimeMs":1598346618983.3145,"mtimeMs":1598346618986.0874,"ctimeMs":1598346618986.0874,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:10:18.983Z","mtime":"2020-08-25T09:10:18.986Z","ctime":"2020-08-25T09:10:18.986Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:10:19,254 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:11:29,325 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:11:29,120 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":809,"blocks":8,"atimeMs":1598346689052.2896,"mtimeMs":1598346689059.327,"ctimeMs":1598346689059.327,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:11:29.052Z","mtime":"2020-08-25T09:11:29.059Z","ctime":"2020-08-25T09:11:29.059Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:14:35,751 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:14:35,545 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":812,"blocks":8,"atimeMs":1598346875245.4668,"mtimeMs":1598346875250.004,"ctimeMs":1598346875250.004,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:14:35.245Z","mtime":"2020-08-25T09:14:35.250Z","ctime":"2020-08-25T09:14:35.250Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:15:53,917 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":815,"blocks":8,"atimeMs":1598346953804.285,"mtimeMs":1598346953806.5312,"ctimeMs":1598346953806.5312,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:15:53.804Z","mtime":"2020-08-25T09:15:53.807Z","ctime":"2020-08-25T09:15:53.807Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:15:54,127 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:16:23,331 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:16:23,126 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":802,"blocks":8,"atimeMs":1598346983008.8667,"mtimeMs":1598346983012.1938,"ctimeMs":1598346983012.1938,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:16:23.009Z","mtime":"2020-08-25T09:16:23.012Z","ctime":"2020-08-25T09:16:23.012Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:16:38,576 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:16:38,372 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":810,"blocks":8,"atimeMs":1598346998276.8477,"mtimeMs":1598346998280.4263,"ctimeMs":1598346998280.4263,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:16:38.277Z","mtime":"2020-08-25T09:16:38.280Z","ctime":"2020-08-25T09:16:38.280Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:18:33,785 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:18:33,581 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":844,"blocks":8,"atimeMs":1598347113517.1443,"mtimeMs":1598347113518.2705,"ctimeMs":1598347113518.2705,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:18:33.517Z","mtime":"2020-08-25T09:18:33.518Z","ctime":"2020-08-25T09:18:33.518Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-25 17:18:51,696 WARN 9092 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/controller/post.js change
+2020-08-25 17:18:51,455 INFO 9092 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yhh/practice/egg-example/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8606291465,"size":831,"blocks":8,"atimeMs":1598347131218.8564,"mtimeMs":1598347131221.3555,"ctimeMs":1598347131221.3555,"birthtimeMs":1560421871367.1663,"atime":"2020-08-25T09:18:51.219Z","mtime":"2020-08-25T09:18:51.221Z","ctime":"2020-08-25T09:18:51.221Z","birthtime":"2019-06-13T10:31:11.367Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-03 17:55:07,248 INFO 28172 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-03 17:55:07,261 INFO 28172 [egg:core] dump config after load, 8ms
+2020-09-03 17:55:07,326 INFO 28172 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-09-03 17:55:07,326 INFO 28172 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-09-03 17:55:07,326 INFO 28172 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-09-03 17:55:07,326 INFO 28172 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-09-03 17:55:07,326 INFO 28172 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-09-03 17:55:07,327 INFO 28172 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-09-03 17:55:07,327 INFO 28172 [egg-watcher:agent] watcher start success
+2020-09-03 17:55:07,366 INFO 28172 [egg:core] dump config after ready, 10ms
+2020-09-03 17:57:04,065 INFO 28274 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-03 17:57:04,074 INFO 28274 [egg:core] dump config after load, 4ms
+2020-09-03 17:57:04,129 INFO 28274 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-09-03 17:57:04,129 INFO 28274 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-09-03 17:57:04,129 INFO 28274 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-09-03 17:57:04,129 INFO 28274 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-09-03 17:57:04,129 INFO 28274 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-09-03 17:57:04,129 INFO 28274 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-09-03 17:57:04,130 INFO 28274 [egg-watcher:agent] watcher start success
+2020-09-03 17:57:04,158 INFO 28274 [egg:core] dump config after ready, 12ms
+2020-09-04 12:01:56,224 WARN 5295 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-04 12:01:55,468 INFO 5295 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-04 12:01:56,017 INFO 5295 [egg:core] dump config after load, 5ms
+2020-09-04 12:01:56,138 INFO 5295 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-09-04 12:01:56,138 INFO 5295 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-09-04 12:01:56,139 INFO 5295 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-09-04 12:01:56,139 INFO 5295 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-09-04 12:01:56,139 INFO 5295 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-09-04 12:01:56,139 INFO 5295 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-09-04 12:01:56,139 INFO 5295 [egg-watcher:agent] watcher start success
+2020-09-04 12:01:57,239 WARN 5295 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-04 12:01:58,258 WARN 5295 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-04 12:01:59,271 ERROR 5295 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/yhh/practice/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/yhh/practice/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 5295
+hostname: yhhdeMacBook-Pro.local
+
+2020-09-04 12:01:59,281 INFO 5295 [egg:core] dump config after ready, 9ms
+2020-09-04 15:35:41,168 WARN 11039 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-04 15:35:40,416 INFO 11039 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-04 15:35:40,952 INFO 11039 [egg:core] dump config after load, 5ms
+2020-09-04 15:35:41,085 INFO 11039 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-09-04 15:35:41,085 INFO 11039 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-09-04 15:35:41,085 INFO 11039 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-09-04 15:35:41,085 INFO 11039 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-09-04 15:35:41,087 INFO 11039 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-09-04 15:35:41,088 INFO 11039 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-09-04 15:35:41,088 INFO 11039 [egg-watcher:agent] watcher start success
+2020-09-04 15:35:42,182 WARN 11039 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-04 15:35:43,194 WARN 11039 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-04 15:35:44,208 ERROR 11039 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/yhh/practice/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/yhh/practice/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/yhh/practice/egg-example/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/yhh/practice/egg-example/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 11039
+hostname: yhhdeMacBook-Pro.local
+
+2020-09-04 15:35:44,217 INFO 11039 [egg:core] dump config after ready, 7ms
+2020-09-04 15:39:00,499 INFO 11163 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 15:38:59,703 INFO 11163 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-04 15:39:00,299 INFO 11163 [egg:core] dump config after load, 5ms
+2020-09-04 15:39:00,435 INFO 11163 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-09-04 15:39:00,435 INFO 11163 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-09-04 15:39:00,436 INFO 11163 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-09-04 15:39:00,436 INFO 11163 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-09-04 15:39:00,436 INFO 11163 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-09-04 15:39:00,436 INFO 11163 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-09-04 15:39:00,436 INFO 11163 [egg-watcher:agent] watcher start success
+2020-09-04 15:39:00,508 INFO 11163 [egg:core] dump config after ready, 6ms
+2020-09-04 15:42:21,880 WARN 11163 [agent:development] reload worker because /Users/yhh/practice/egg-example/app/schedule/update_cache.js rename
+2020-09-04 15:42:21,674 INFO 11163 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/yhh/practice/egg-example/app/schedule/update_cache.js","remove":true,"isDirectory":false,"isFile":false}
+2020-09-04 15:43:38,078 INFO 11308 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 15:43:37,377 INFO 11308 [egg:logger] init all loggers with options: {"dir":"/Users/yhh/practice/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-04 15:43:37,933 INFO 11308 [egg:core] dump config after load, 3ms
+2020-09-04 15:43:37,996 INFO 11308 [egg-watcher] Start watching: ["/Users/yhh/practice/egg-example/app","/Users/yhh/practice/egg-example/config","/Users/yhh/practice/egg-example/mocks","/Users/yhh/practice/egg-example/mocks_proxy","/Users/yhh/practice/egg-example/app.js"]
+2020-09-04 15:43:37,996 INFO 11308 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app"
+2020-09-04 15:43:37,996 INFO 11308 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/config"
+2020-09-04 15:43:37,996 INFO 11308 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks"
+2020-09-04 15:43:37,997 INFO 11308 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/mocks_proxy"
+2020-09-04 15:43:37,997 INFO 11308 [egg-watcher] Start watching: "/Users/yhh/practice/egg-example/app.js"
+2020-09-04 15:43:37,997 INFO 11308 [egg-watcher:agent] watcher start success
+2020-09-04 15:43:38,086 INFO 11308 [egg:core] dump config after ready, 5ms
