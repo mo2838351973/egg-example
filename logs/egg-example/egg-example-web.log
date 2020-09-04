@@ -16,3 +16,129 @@ hostname: yhhdeMacBook-Pro.local
 2020-09-04 15:39:01,843 INFO 11164 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2020-09-04 15:42:24,970 INFO 11253 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2020-09-04 15:43:39,331 INFO 11309 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:12:45,278 INFO 15857 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:13:07,929 INFO 15890 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:13:13,760 INFO 15914 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:14:35,697 INFO 15963 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:15:25,458 INFO 16013 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:15:32,076 INFO 16029 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:15:33,486 INFO 16046 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:15:39,609 INFO 16064 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:19:50,203 INFO 16211 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:20:01,879 INFO 16211 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 18:26:32,099 INFO 16440 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:26:50,031 INFO 16477 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:34:44,398 INFO 16738 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:36:04,797 INFO 16802 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:46:29,718 INFO 16802 [egg-sequelize](5ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 18:46:35,505 INFO 16802 [egg-sequelize](13ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 18:48:07,375 INFO 16802 [egg-sequelize](6ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 18:49:46,258 INFO 16802 [egg-sequelize](4ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 18:49:51,398 INFO 16802 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 18:50:44,062 INFO 16802 [egg-sequelize](14ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 18:50:48,690 INFO 16802 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 18:52:06,763 INFO 17223 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:52:48,829 INFO 17261 [egg-sequelize](12ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:53:39,742 INFO 17301 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:53:55,801 ERROR 17301 [-/127.0.0.1/-/21ms POST /users] nodejs.TypeError: ctx.validate is not a function
+    at UserController.create (/Users/yhh/practice/egg-example/app/controller/users.js:30:9)
+    at Object.callFn (/Users/yhh/practice/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yhh/practice/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/Users/yhh/practice/egg-example/app/middleware/gzip.js:7:11)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/yhh/practice/egg-example/app/middleware/robot.js:12:15)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yhh/practice/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yhh/practice/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/yhh/practice/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 17301
+hostname: yhhdeMacBook-Pro.local
+
+2020-09-04 18:56:09,596 INFO 17394 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 18:57:35,139 WARN 17394 [-/127.0.0.1/-/9ms POST /users] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/yhh/practice/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/yhh/practice/egg-example/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/yhh/practice/egg-example/app/controller/users.js:30:9)
+    at Object.callFn (/Users/yhh/practice/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yhh/practice/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/Users/yhh/practice/egg-example/app/middleware/gzip.js:7:11)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/yhh/practice/egg-example/app/middleware/robot.js:12:15)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yhh/practice/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yhh/practice/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"name","code":"missing_field"},{"message":"required","field":"age","code":"missing_field"}]
+pid: 17394
+hostname: yhhdeMacBook-Pro.local
+
+2020-09-04 19:21:29,268 INFO 18048 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:21:38,799 WARN 18048 [-/127.0.0.1/-/6ms POST /users] [
+  { message: 'required', field: 'name', code: 'missing_field' },
+  { message: 'required', field: 'age', code: 'missing_field' }
+]
+2020-09-04 19:25:17,177 INFO 18171 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:25:27,399 INFO 18197 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:26:12,356 INFO 18252 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:26:16,948 INFO 18269 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:28:18,650 INFO 18376 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:28:21,165 INFO 18380 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:28:31,878 INFO 18404 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:29:23,930 WARN 18404 [-/127.0.0.1/-/5ms POST /users] [
+  { message: 'required', field: 'name', code: 'missing_field' },
+  { message: 'required', field: 'age', code: 'missing_field' }
+]
+2020-09-04 19:32:01,180 WARN 18404 [-/127.0.0.1/-/1ms POST /users] [
+  { message: 'required', field: 'name', code: 'missing_field' },
+  { message: 'required', field: 'age', code: 'missing_field' }
+]
+2020-09-04 19:34:23,708 INFO 18565 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:34:30,305 WARN 18565 [-/127.0.0.1/-/6ms POST /users] [
+  { message: 'required', field: 'name', code: 'missing_field' },
+  { message: 'required', field: 'age', code: 'missing_field' }
+]
+2020-09-04 19:34:53,429 INFO 18595 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:34:58,303 WARN 18595 [-/127.0.0.1/-/5ms POST /users] [ { message: 'required', field: 'name', code: 'missing_field' } ]
+2020-09-04 19:35:17,177 INFO 18619 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:35:23,209 INFO 18639 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:35:28,905 INFO 18650 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:35:36,038 INFO 18650 [egg-sequelize](41ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 19:39:17,205 INFO 18749 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:39:24,863 INFO 18772 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:40:15,569 INFO 18801 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:40:59,923 INFO 18801 [egg-sequelize](5ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 19:41:16,411 INFO 18801 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 19:45:33,854 INFO 18950 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:48:40,626 INFO 19065 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-04 19:48:44,197 INFO 19065 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 19:49:08,607 INFO 19065 [egg-sequelize](8ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 19:50:05,736 INFO 19065 [egg-sequelize](5ms) Executed (default): INSERT INTO `users` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-04 19:50:46,611 INFO 19065 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`,`name`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);
+2020-09-04 19:51:25,815 INFO 19065 [egg-sequelize](4ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);
+2020-09-04 19:51:51,870 INFO 19065 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2020-09-04 20:01:27,439 INFO 19065 [egg-sequelize](8ms) Executed (default): INSERT INTO `users` (`id`,`name`,`age`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);

@@ -13,6 +13,7 @@ module.exports = app => {
     router.get('s', '/search/uppercase', middlewares.uppercase(), controller.search.uppercase);
     router.post('createPost', '/api/posts', controller.post.create);
     router.get('/name', gzip, app.controller.name.index);
-    
+    router.resources('users', '/users', controller.users);
+    router.resources('topics', '/api/v2/topics', controller.topics);
 
 };

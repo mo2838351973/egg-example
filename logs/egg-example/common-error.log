@@ -5965,3 +5965,30 @@ hostname: yhhdeMacBook-Pro.local
   }
 }
 2020-09-04 15:42:05,964 ERROR 11164 [Job#1599205321870204993948452133] /Users/yhh/practice/egg-example/app/schedule/update_cache.js execute failed, used 4092ms
+2020-09-04 18:53:55,766 ERROR 17301 [-/127.0.0.1/-/21ms POST /users] nodejs.TypeError: ctx.validate is not a function
+    at UserController.create (/Users/yhh/practice/egg-example/app/controller/users.js:30:9)
+    at Object.callFn (/Users/yhh/practice/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yhh/practice/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/yhh/practice/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/Users/yhh/practice/egg-example/app/middleware/gzip.js:7:11)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/yhh/practice/egg-example/app/middleware/robot.js:12:15)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yhh/practice/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yhh/practice/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/yhh/practice/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/yhh/practice/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 17301
+hostname: yhhdeMacBook-Pro.local
+

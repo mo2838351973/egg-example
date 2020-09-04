@@ -4,7 +4,7 @@ module.exports = {
     keys : `1234`,//<此处改为你自己的 Cookie 安全字符串>
     security : {
         csrf: false //「除非清楚的确认后果，否则不建议擅自关闭安全插件提供的功能。」
-      },
+    },
     // 添加 view 配置
     view : {
         defaultViewEngine: 'nunjucks',
