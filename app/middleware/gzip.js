@@ -9,7 +9,7 @@ module.exports = options => {
     // 后续中间件执行完成后将响应体转换成 gzip
     let body = ctx.body;
     if (!body) return;
-
+    // console.log("ctx.length:", ctx.length, "options.threshold:",options.threshold)
     // 支持 options.threshold
     if (options.threshold && ctx.length < options.threshold) return;
 

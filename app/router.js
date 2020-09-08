@@ -4,6 +4,9 @@ module.exports = app => {
     const gzip = app.middleware.gzip({ threshold: 1024 });
     router.get('/', controller.home.index);
     router.get('/home', controller.home.index);
+    router.post('/api/body', controller.home.body);
+    router.post('/api/xml', controller.home.xml);
+    
     router.get('/news', controller.news.list);
     // router.get('/user/:id', controller.user.info);//参数parame
     router.post('/form', controller.form.post);//提交表单

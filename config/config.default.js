@@ -42,5 +42,15 @@ module.exports = {
         port: 3306,
         database: 'egg-sequelize-doc-default',
         password: '12345678',
-      }
+    },
+
+    bodyParser: {
+        enableTypes: [ 'json', 'form', 'text' ],
+        extendTypes: {
+            json: 'application/custom-json',
+            text: [ 'application/xml' ],
+        },
+        jsonLimit: '1mb',
+        formLimit: '1mb',
+    },
   };
