@@ -49,7 +49,6 @@ class UserController extends Controller {
       ctx.status = 404;
       return;
     }
-    debugger
     const { name, age } = ctx.request.body;
     await user.update({ name, age });
     ctx.body = {
