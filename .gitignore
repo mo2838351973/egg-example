@@ -10,7 +10,6 @@ run/
 .DS_Store
 *.sw*
 *.un~
-.vscode/
 *.todo
 typings
 !typings/index.d.ts
